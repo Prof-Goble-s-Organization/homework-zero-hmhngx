@@ -27,7 +27,7 @@ public class AlienExtend extends SpaceAlien implements ZapsWithSlime{
     }
 
     public static void main(String[] args) {
-        AlienExtend ae = new AlienExtend(10, "Gaytopia", 1000000);
+        AlienExtend ae = new AlienExtend(10, "NotEarth", 1000000);
         ae.doGreeting();
         ae.slimeWholeEarth();
         ae.doSlimeZap(15);
